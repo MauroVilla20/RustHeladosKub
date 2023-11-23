@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: api-ingress
+spec:
+  rules:
+    - host: api.mvilla.com
+      http:
+        paths:
+          - path: /todolist/entries
+            pathType: Prefix
+            backend:
+              service:
+                name: rust-svc
+                port:
+                  number: 80
+  
