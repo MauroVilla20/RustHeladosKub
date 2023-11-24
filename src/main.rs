@@ -35,3 +35,4 @@ async fn main() -> std::io::Result<()> {
     .bind(("0.0.0.0", 80))?
     .run()
     .await
+}

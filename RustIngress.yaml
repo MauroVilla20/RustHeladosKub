@@ -11,7 +11,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: rust-svc
+                name: rust-service
                 port:
-                  number: 80
+                  number: 8080
   

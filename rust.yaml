@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: rust 
-        image: maurovilla007/mvrustimage:v1
+        image: maurovilla007/mvrustapi:v1
         ports:
         - containerPort: 8080
