@@ -55,3 +55,4 @@ pub fn config(cfg: &mut web::ServiceConfig) {
     .service(create_entry)
     .service(update_entry)
     .service(delete_entry);
+}
